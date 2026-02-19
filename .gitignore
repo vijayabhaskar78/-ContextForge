@@ -1,0 +1,52 @@
+# Ignore all .env files
+*.env
+.env.*
+*.pdf
+*.csv
+
+.vscode/
+*.code-workspace
+.idea/
+.workspace_meta/
+.workspace_meta_legacy/
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore pip cache
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+*.whl
+*.manifest
+
+# Ignore folders (must include trailing slash)
+Resources/
+documents/
+venv/
+.venv/
+env/
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore specific files
+Test.ipynb
+text_chunks_and_embeddings_df.csv
+
+# Ignore folders created by the RAG Pipeline
+vector_store_db/
+workspace_documents/
+
+
+#test files
+CLI/
+RecursiveChunking.py
+semanticChunking.py
+testrequirement.txt
+main2.py
+runtime_cache/
+final/runtime_cache/
+vector_store_db_legacy/
+runtime_cache_legacy/

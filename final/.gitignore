@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Data directories (local)
+data/
+logs/
+rag_documents/
+runtime_cache/
+vector_store_db/
+workspace_documents/
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribution
+dist/
+build/
+*.egg-info/
