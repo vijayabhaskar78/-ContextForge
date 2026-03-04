@@ -150,3 +150,12 @@ The system logs comprehensive metrics to `logs/metrics.jsonl`, including:
 *   **Error Rates**: Tracking of failed requests.
 
 These logs can be ingested by monitoring tools or analyzed directly for performance tuning.
+
+## Research Direction
+
+ContextForge serves as an experimental platform for studying retrieval strategies and long-context reasoning systems. Future work explores:
+
+• structured memory for long-running AI agents
+• hybrid sparse-dense retrieval strategies
+• document-aware reasoning pipelines
+• autonomous agents operating over large document collections
