@@ -1,6 +1,10 @@
 # ContextForge
 
-ContextForge Is a production-grade, local-first RAG (Retrieval-Augmented Generation) system designed for deep document understanding and interactive Q&A. It features a dual-mode retrieval engine, hierarchical conversational memory, and intelligent document processing to deliver grounded, context-aware answers from local documents.
+ContextForge is a local-first Retrieval-Augmented Generation (RAG) system designed for deep document understanding, structured retrieval, and long-context conversations.
+
+Most RAG systems rely purely on vector search, which can struggle with exact terminology, structured documents, and long-running conversations. ContextForge explores a hybrid approach that combines dense retrieval, sparse retrieval, and hierarchical conversational memory to improve answer grounding and contextual continuity.
+
+The system is designed for developers and researchers experimenting with reliable long-context AI systems, especially in environments where privacy, transparency, and local inference are important.
 
 ## Key Architecture
 
